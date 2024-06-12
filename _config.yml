@@ -1,4 +1,7 @@
+title: Blog
 baseurl: "/jekyll"
+
+theme: minima
 collections:
   authors:
     output: true
