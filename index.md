@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Docker Quick Start Guide
-title2: Home sweet home 2
 ---
 
 # {{ page.title }}
