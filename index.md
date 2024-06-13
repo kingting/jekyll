@@ -6,6 +6,10 @@ title2: Home sweet home 2
 
 # {{ page.title }}
 
+## Introduction
+
+This quick start guide provides the basic Docker commands to help you get started with understanding and using Docker. By following this guide, you will learn how to build, tag, push, and manage Docker images and containers. You can actually run the commands in the examples after cloning this repository.
+
 ## Build the Image
 ```bash
 docker build -t <image_name>:<tag> .
@@ -151,4 +155,5 @@ docker rmi $(docker images -q)
 - `<container_port>`: Port inside the Docker container.
 - `<output_file>`: Name of the tar file to save the image.
 - `<input_file>`: Name of the tar file to load the image from.
+
 
